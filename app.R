@@ -10,6 +10,7 @@ library(bestNormalize) # For Yeo-Johnson transformation
 library(ggplot2) 
 library(plotly) # For interactive plots (EDA)
 library(shinyBS) # For tooltips
+library(cicerone) # For guided tutorial
 
 options(shiny.maxRequestSize = 100 * 1024^2)  
 
@@ -25,8 +26,43 @@ data_cleaning <- function(df) {
   return(df)
 }
 
+# Define the tutorial
+guide <- Cicerone$new()$
+  step(
+    el = "file_upload_container", 
+    title = "Step 1: Upload Your Data",
+    description = "Click here to upload your dataset"
+  )$
+  step(
+    el = "clean_data",
+    title = "Step 2: Clean Data",
+    description = "Click this button to clean your dataset by removing duplicates and imputing missing values."
+  )$
+  step(
+    el = "transformation_numeric",
+    title = "Select Numeric Transformation",
+    description = "Choose a numeric transformation to apply to your data."
+  )$
+  step(
+    el = "apply_numeric",
+    title = "Apply Numeric Transformation",
+    description = "Click here to apply selected numeric transformation to the chosen column."
+  )$
+  step(
+    el = "cat_transformation",
+    title = "Select Categorical Transformation",
+    description = "Chose a categorical transformation to apply to your data."
+  )$
+  step(
+    el = "apply_categorical",
+    title = "Apply Categorical Transformation",
+    description = "Click here to apply selected categorical transformation to the chosen column."
+  )
+
 # Define the UI
 ui <- fluidPage(
+  use_cicerone(),
+  actionButton("start_tutorial", "Start Tutorial"), 
   tags$head(
     tags$script(async = NA, src = "https://www.googletagmanager.com/gtag/js?id=G-WY4BCB1RGZ"),
     tags$script(HTML("
@@ -88,7 +124,7 @@ ui <- fluidPage(
                 placement = "right", trigger = "hover"),
       actionButton("apply_categorical", "Apply Categorical Transformation"),
       bsTooltip("apply_categorical", "Click to apply the selected categorical transformation to the chosen column.",
-              placement = "right", trigger = "hover")),
+                placement = "right", trigger = "hover")),
     
     mainPanel(
       tabsetPanel(
@@ -288,9 +324,7 @@ server <- function(input, output, session) {
     datatable(engineered_data(), options = list(autoWidth = TRUE))
   })
   
-  # --------------
-  #  EDA Controls
-  # --------------
+  # EDA controls
   output$eda_controls <- renderUI({
     req(engineered_data())
     df <- engineered_data()
@@ -346,7 +380,7 @@ server <- function(input, output, session) {
     
     df
   })
-
+  
   output$eda_plot <- renderPlotly({
     req(eda_filtered_data())  # check
     
@@ -404,9 +438,13 @@ server <- function(input, output, session) {
     
     summary(df)
   })
-
-  # --- End of EDA Controls ---
-
+  
+  # Tutorial
+  observeEvent(input$start_tutorial, {
+    # Initialize and start the guide
+    guide$init()$start()
+  })
+  
 }
 
 # Run the application 
