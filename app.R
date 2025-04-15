@@ -61,8 +61,15 @@ guide <- Cicerone$new()$
 
 # Define the UI
 ui <- fluidPage(
-  use_cicerone(),
-  actionButton("start_tutorial", "Start Tutorial"), 
+  tags$div(style = "text-align: center; margin-top: 20px;",
+           actionButton("start_tutorial", "Start Tutorial", 
+                        style = "font-size: 20px; background-color: #28a745; color: white; padding: 12px 30px; border-radius: 8px; border: none;"),
+           tags$style(HTML("
+    #start_tutorial:hover {
+      background-color: #218838;
+    }
+  "))
+  ),
   titlePanel("Data Processing App"),
   sidebarLayout(
     sidebarPanel(
