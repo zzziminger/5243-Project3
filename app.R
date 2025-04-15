@@ -68,6 +68,16 @@ ui <- fluidPage(
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-MLXKL076LQ');
+  ")),
+    tags$script(HTML("
+    function trackEvent(category, action, label) {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', action, {
+          event_category: category,
+          event_label: label
+        });
+      }
+    }
   "))
   ),
   use_cicerone(),
@@ -85,7 +95,7 @@ ui <- fluidPage(
                   choices = c("None", "mtcars", "iris"),
                   selected = "None"),
       bsTooltip("dataset", "Select a pre-loaded dataset for analysis.", placement = "right", trigger = "hover"),
-      actionButton("clean_data", "Clean Data"),
+      actionButton("clean_data", "Clean Data", onclick = "trackEvent('Interaction', 'Click', 'Clean Data')"),
       bsTooltip("clean_data", "Click to clean the dataset (removes duplicates, imputes missing values, etc.).", placement = "right", trigger = "hover"),
       tags$hr(),
       
@@ -106,7 +116,7 @@ ui <- fluidPage(
       textInput("num_new_col_name", "New Column Name", value = "new_feature"),
       bsTooltip("num_new_col_name", "Enter a name for the newly created numeric feature.",
                 placement = "right", trigger = "hover"),
-      actionButton("apply_numeric", "Apply Numeric Transformation"),
+      actionButton("apply_numeric", "Apply Numeric Transformation", onclick = "trackEvent('Interaction', 'Click', 'Apply Numeric')"),
       bsTooltip("apply_numeric", "Click to apply the selected numeric transformation to the chosen column.",
                 placement = "right", trigger = "hover"),
       tags$hr(),
@@ -121,12 +131,12 @@ ui <- fluidPage(
       textInput("cat_new_prefix", "New Column Prefix", value="oh"),
       bsTooltip("cat_new_prefix", "Enter a prefix for the new categorical feature columns.",
                 placement = "right", trigger = "hover"),
-      actionButton("apply_categorical", "Apply Categorical Transformation"),
+      actionButton("apply_categorical", "Apply Categorical Transformation", onclick = "trackEvent('Interaction', 'Click', 'Apply Categorical')"),
       bsTooltip("apply_categorical", "Click to apply the selected categorical transformation to the chosen column.",
                 placement = "right", trigger = "hover")),
     
     mainPanel(
-      tabsetPanel(
+      tabsetPanel(id = "tabs",
         tabPanel("User Guide", 
                  h3("Welcome to the Data Processing App"),
                  p("This app allows you to upload, clean, and engineer features to explore your dataset interactively."),
@@ -173,6 +183,23 @@ ui <- fluidPage(
                  h5("Filtering Options"),
                  p("You can filter the data before plotting by selecting specific numeric ranges or categorical values.")
         ),
+        tags$script(HTML("
+        let currentTabStart = Date.now();
+        let currentTab = null;
+        Shiny.addCustomMessageHandler('tabChanged', function(tabName) {
+        let now = Date.now();
+        if (currentTab) {
+        let timeSpent = Math.round((now - currentTabStart) / 1000); // seconds
+        trackEvent('Time', 'Tab Duration', currentTab + ' - ' + timeSpent + 's');
+        }
+        currentTabStart = now;
+        currentTab = tabName;
+        trackEvent('Navigation', 'Tab Viewed', tabName);
+        });
+        window.addEventListener('beforeunload', function () {
+        trackEvent('Exit', 'Page Leave', document.title);
+        });
+                         ")),
         tabPanel("Raw Data Preview", tableOutput("contents")),
         tabPanel("Cleaned Data Preview", DTOutput("cleaned_table")),
         tabPanel("Feature Engineered Data", DTOutput("fe_table")),
@@ -188,6 +215,9 @@ ui <- fluidPage(
 
 # Define the server logic
 server <- function(input, output, session) {
+  observe({
+    session$sendCustomMessage("tabChanged", input$tabs)
+  })
   
   # Reactive expression to read the file
   data <- reactive({
@@ -444,8 +474,8 @@ server <- function(input, output, session) {
       title = "Tutorial Options",
       "Would you like to start the tutorial or skip it?",
       footer = tagList(
-        actionButton("start_tutorial", "Start Tutorial"),
-        actionButton("skip_tutorial", "Skip Tutorial")
+        actionButton("start_tutorial", "Start Tutorial", onclick = "trackEvent('Tutorial', 'Click', 'Start Tutorial')"),
+        actionButton("skip_tutorial", "Skip Tutorial", onclick = "trackEvent('Tutorial', 'Click', 'Skip Tutorial')")
       )
     ))
   })
