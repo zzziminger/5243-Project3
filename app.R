@@ -61,6 +61,7 @@ guide <- Cicerone$new()$
 
 # Define the UI
 ui <- fluidPage(
+  use_cicerone(),
   tags$div(style = "text-align: center; margin-top: 20px;",
            actionButton("start_tutorial", "Start Tutorial", 
                         style = "font-size: 20px; background-color: #28a745; color: white; padding: 12px 30px; border-radius: 8px; border: none;"),
