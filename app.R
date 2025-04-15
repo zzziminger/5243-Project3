@@ -62,15 +62,6 @@ guide <- Cicerone$new()$
 # Define the UI
 ui <- fluidPage(
   use_cicerone(),
-  tags$div(style = "text-align: center; margin-top: 20px;",
-           actionButton("start_tutorial", "Start Tutorial", 
-                        style = "font-size: 20px; background-color: #28a745; color: white; padding: 12px 30px; border-radius: 8px; border: none;"),
-           tags$style(HTML("
-    #start_tutorial:hover {
-      background-color: #218838;
-    }
-  "))
-  ),
   titlePanel("Data Processing App"),
   sidebarLayout(
     sidebarPanel(
@@ -438,10 +429,27 @@ server <- function(input, output, session) {
     summary(df)
   })
   
-  # Tutorial
+  # Show a modal dialog with options to start or skip the tutorial
+  observe({
+    showModal(modalDialog(
+      title = "Tutorial Options",
+      "Would you like to start the tutorial or skip it?",
+      footer = tagList(
+        actionButton("start_tutorial", "Start Tutorial"),
+        actionButton("skip_tutorial", "Skip Tutorial")
+      )
+    ))
+  })
+  
+  # Start tutorial when "Start Tutorial" is clicked
   observeEvent(input$start_tutorial, {
-    # Initialize and start the guide
     guide$init()$start()
+    removeModal()  # Close the modal once the tutorial starts
+  })
+  
+  # Skip tutorial when the skip button is clicked
+  observeEvent(input$skip_tutorial, {
+    removeModal() 
   })
   
 }
