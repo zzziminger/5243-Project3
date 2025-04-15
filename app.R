@@ -61,6 +61,15 @@ guide <- Cicerone$new()$
 
 # Define the UI
 ui <- fluidPage(
+  tags$head(
+    tags$script(async = NA, src = "https://www.googletagmanager.com/gtag/js?id=G-MLXKL076LQ"),
+    tags$script(HTML("
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MLXKL076LQ');
+  "))
+  ),
   use_cicerone(),
   titlePanel("Data Processing App"),
   sidebarLayout(
