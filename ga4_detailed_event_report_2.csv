@@ -1,0 +1,250 @@
+eventName,date,city,country,deviceCategory,browser,sessionSourceMedium,pagePath,eventCount,userEngagementDuration,engagedSessions,screenPageViews
+Tab Viewed,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,66,4,10,0
+Tab Duration,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,43,175,6,0
+Click,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,24,160,9,0
+Tab Viewed,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,24,0,1,0
+Click,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,23,43,1,0
+page_view,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,23,0,10,23
+Page Leave,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,22,176,10,0
+Tab Duration,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,16,46,1,0
+Tab Viewed,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,14,4,4,0
+page_view,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,14,0,6,14
+scroll,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,14,45,9,0
+Tab Viewed,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,12,0,1,0
+scroll,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,12,12,6,0
+session_start,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,11,0,10,0
+Tab Duration,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,10,17,1,0
+Tab Viewed,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,10,0,1,0
+Tab Duration,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,9,140,1,0
+Tab Viewed,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,9,0,0,0
+Tab Viewed,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,9,0,1,0
+session_start,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,9,0,6,0
+Click,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,8,28,4,0
+Click,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,8,21,0,0
+Tab Duration,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,8,35,0,0
+Tab Viewed,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,8,0,1,0
+first_visit,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,8,0,7,0
+page_view,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,8,0,1,8
+Tab Duration,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,7,33,1,0
+Click,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,6,28,1,0
+Tab Duration,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,6,30,2,0
+Tab Duration,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,6,20,1,0
+Tab Viewed,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,6,0,2,0
+Tab Viewed,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,6,1,1,0
+Tab Duration,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,5,24,1,0
+Tab Viewed,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,5,0,1,0
+Tab Viewed,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,5,0,1,0
+first_visit,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,5,0,3,0
+scroll,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,5,8,1,0
+Click,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,4,35,1,0
+Tab Duration,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,4,18,1,0
+Tab Duration,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,4,16,1,0
+Tab Viewed,20250415,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,4,0,0,0
+Tab Viewed,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,4,1,1,0
+first_visit,20250415,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,4,0,0,0
+form_start,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,4,20,1,0
+page_view,20250415,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,4,0,0,4
+session_start,20250415,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,4,0,0,0
+Click,20250415,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,3,9,1,0
+Click,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,3,7,1,0
+Click,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,3,6,1,0
+Click,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,3,0,2,0
+Click,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,3,44,1,0
+Tab Duration,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,3,6,1,0
+Tab Duration,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,3,47,1,0
+Tab Viewed,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,3,0,1,0
+page_view,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,3,0,2,3
+Click,20250415,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,0
+Click,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,2,23,1,0
+Click,20250419,(not set),China,mobile,Android Webview,(direct) / (none),/app_new/,2,4,0,0
+Click,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,2,8,1,0
+Click,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,5,1,0
+Click,20250419,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,1,0
+Page Leave,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,2,4,0,0
+Page Leave,20250421,Rib Lake,United States,desktop,Safari,(direct) / (none),/app_new/,2,1,1,0
+Tab Duration,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,2,11,1,0
+Tab Viewed,20250415,Ashburn,United States,mobile,Chrome,(direct) / (none),/app_new/,2,0,0,0
+Tab Viewed,20250415,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,0
+Tab Viewed,20250415,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,0
+Tab Viewed,20250416,Ridgefield,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,0
+Tab Viewed,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,1,0
+Tab Viewed,20250419,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,1,0
+first_visit,20250415,Ashburn,United States,mobile,Chrome,(direct) / (none),/app_new/,2,0,0,0
+first_visit,20250415,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,0
+first_visit,20250415,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,0
+first_visit,20250416,Ridgefield,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,0
+first_visit,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,0
+form_start,20250415,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,2,4,2,0
+form_start,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,12,1,0
+page_view,20250415,Ashburn,United States,mobile,Chrome,(direct) / (none),/app_new/,2,0,0,2
+page_view,20250415,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,2
+page_view,20250415,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,2
+page_view,20250416,Ridgefield,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,2
+page_view,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,2,0,1,2
+page_view,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,2,0,1,2
+page_view,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,1,2
+page_view,20250419,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,1,2
+scroll,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,2,11,1,0
+scroll,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,2,3,1,0
+scroll,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,2,24,2,0
+session_start,20250415,Ashburn,United States,mobile,Chrome,(direct) / (none),/app_new/,2,0,0,0
+session_start,20250415,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,0
+session_start,20250415,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,0
+session_start,20250416,Ridgefield,United States,mobile,Safari,(direct) / (none),/app_new/,2,0,1,0
+session_start,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,2,0,1,0
+session_start,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,2,0,2,0
+user_engagement,20250415,New York,United States,mobile,Chrome,(direct) / (none),/app_new/,2,7,1,0
+Click,20250415,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+Click,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,6,1,0
+Click,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,1,1,0
+Click,20250416,Boston,United States,desktop,Safari,(direct) / (none),/app_new/,1,2,0,0
+Click,20250416,Ridgefield,United States,mobile,Safari,(direct) / (none),/app_new/,1,4,1,0
+Click,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,1,8,1,0
+Click,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,1,9,1,0
+Click,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,4,1,0
+Click,20250421,Rib Lake,United States,desktop,Safari,(direct) / (none),/app_new/,1,3,1,0
+Page Leave,20250414,New York,United States,desktop,Chrome,(direct) / (none),/,1,2,0,0
+Page Leave,20250414,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,1,0,0
+Page Leave,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,9,1,0
+Page Leave,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,1,0
+Page Leave,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,2,1,0
+Page Leave,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,1,0,0,0
+Page Leave,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,1,2,1,0
+Page Leave,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,563,1,0
+Tab Duration,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+Tab Viewed,20250414,New York,United States,desktop,Chrome,(direct) / (none),/,1,0,0,0
+Tab Viewed,20250414,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250415,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+Tab Viewed,20250415,Johnstown,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,0,1,0
+Tab Viewed,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,1,0
+Tab Viewed,20250416,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250416,Ashburn,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250416,Boston,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250418,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250418,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,5,1,0
+Tab Viewed,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,1,0,1,0
+Tab Viewed,20250419,(not set),China,mobile,Android Webview,(direct) / (none),/app_new/,1,1,0,0
+Tab Viewed,20250419,(not set),United States,desktop,Chrome,(direct) / (none),/app_new/,1,4,0,0
+Tab Viewed,20250419,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+Tab Viewed,20250421,Rib Lake,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250414,Coldwater,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250414,New York,United States,desktop,Chrome,(direct) / (none),/,1,0,0,0
+first_visit,20250414,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250415,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250415,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250415,Johnstown,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250416,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250416,Ashburn,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250416,Boston,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250418,(not set),(not set),mobile,Chrome,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250418,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250418,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,(not set),China,mobile,Android Webview,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250419,(not set),United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250419,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+first_visit,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250419,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+first_visit,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+form_start,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,1,3,1,0
+form_start,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,6,1,0
+form_start,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,9,1,0
+form_start,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,1,2,1,0
+form_start,20250419,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,1,1,0
+form_start,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,6,1,0
+form_start,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,1,2,0,0
+form_start,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,7,1,0
+form_start,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,9,1,0
+page_view,20250414,Coldwater,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250414,New York,United States,desktop,Chrome,(direct) / (none),/,1,0,0,1
+page_view,20250414,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250415,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,1
+page_view,20250415,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250415,Johnstown,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250416,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250416,Ashburn,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250416,Boston,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250418,(not set),(not set),mobile,Chrome,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250418,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250418,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250419,(not set),China,mobile,Android Webview,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250419,(not set),United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250419,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,1
+page_view,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,1,0,0,1
+page_view,20250419,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250419,Rochester,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,1
+page_view,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,1
+page_view,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,1
+page_view,20250421,Rib Lake,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,1,1
+scroll,20250415,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,1,3,1,0
+scroll,20250415,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,9,1,0
+scroll,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,3,1,0
+scroll,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,7,1,0
+scroll,20250415,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,4,1,0
+scroll,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,10,1,0
+scroll,20250416,Ridgefield,United States,mobile,Safari,(direct) / (none),/app_new/,1,4,1,0
+scroll,20250418,(not set),(not set),mobile,Chrome,(direct) / (none),/app_new/,1,0,1,0
+scroll,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,1,3,1,0
+scroll,20250418,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+scroll,20250418,New York,United States,desktop,Edge,(direct) / (none),/app_new/,1,6,1,0
+scroll,20250419,(not set),United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+scroll,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,3,1,0
+scroll,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,5,1,0
+scroll,20250419,New York,United States,desktop,Chrome,(not set),/app_new/,1,1,0,0
+scroll,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,1,32,1,0
+scroll,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,2,1,0
+scroll,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,6,1,0
+scroll,20250419,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,36,1,0
+scroll,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250414,Coldwater,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250414,New York,United States,desktop,Chrome,(direct) / (none),/,1,0,0,0
+session_start,20250414,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250415,Chicago,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+session_start,20250415,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250415,Johnstown,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250416,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250416,Ashburn,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250416,Boston,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250416,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250418,(not set),(not set),mobile,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250418,Ashburn,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250418,Atlanta,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250418,Hialeah Gardens,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250418,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,(not set),China,mobile,Android Webview,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250419,(not set),United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250419,Ashburn,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250419,Boston,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,Chicago,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,Fort Lee,United States,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,New York,United States,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250419,Rochester,United States,mobile,Safari,(direct) / (none),/app_new/,1,0,0,0
+session_start,20250419,Shenyang,China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,Surrey,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,Toronto,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+session_start,20250419,Vancouver,Canada,mobile,Safari (in-app),(direct) / (none),/app_new/,1,0,1,0
+session_start,20250420,(not set),China,desktop,Chrome,(direct) / (none),/app_new/,1,0,1,0
+session_start,20250421,Rib Lake,United States,desktop,Safari,(direct) / (none),/app_new/,1,0,1,0
+user_engagement,20250415,Johnstown,United States,mobile,Safari,(direct) / (none),/app_new/,1,5,0,0
+user_engagement,20250415,New York,United States,mobile,Android Webview,(direct) / (none),/app_new/,1,17,1,0
+user_engagement,20250415,New York,United States,mobile,Safari,(direct) / (none),/app_new/,1,1,1,0
