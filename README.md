@@ -47,6 +47,21 @@ Ensure you have R and the following R packages installed:
   `install.packages("package-name")`
 - If the app does not start, check for any error messages in the R console
 
+## How to Run the Data Analysis Code
+### Clone the Repository
+`git clone <repository-url>`
+
+`cd <repository-folder>`
+### Open the Notebook
+Use a platform that supports .ipyb file, such as VSCode, Google Colab, or Juypter NoteBook
+
+### Install required Libraries
+Ensure the following python packages are installed:
+  `pip install pandas, numpy, matplotlib, seaborn, scipy`
+  
+### Run the Analysis
+- Open and run the file `stat_analysis.ipynb`
+- Make sure the data files are in the same directory as the notebook. (If you cloned the repository, this should already be set up.)
 
 
 
