@@ -1,5 +1,4 @@
-# 5243-Project3
-
+# 5243-Project3 - A/B Testing for an R Shiny Data Processing Application
 App deployment
 
 - Old: https://zzziming.shinyapps.io/app_old/
@@ -8,7 +7,6 @@ App deployment
 
 The only difference between the two versions is the presence of a tutorial pop-up window in the new version. All other features and usage instructions remain the same.
 
-# R Shiny Data Processing Application
 ## Overview
 This R Shiny application provides an interactive platform for dataset upload, data cleaning, feature engineering, and exploratory data analysis (EDA). Users can import datasets in various formats, apply transformations, and visualize data through an intuitive interface.
 
