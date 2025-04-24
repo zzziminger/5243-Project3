@@ -33,7 +33,7 @@ Ensure you have R and the following R packages installed:
 ### Run the App
 `library(shiny)`
 
-`runApp("app.R")`
+`runApp("app.R")` or `runApp("app-old.R")`
 ### Access the App
 - Once the app is running, it will open in your default web browser.
 - Follow the User Guide tab for instructions on using the app.
